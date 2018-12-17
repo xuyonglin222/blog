@@ -13,6 +13,7 @@ categories: 学习
 + async
 优雅程度自上而下。
 <!--more-->
+
 ### express koa1 koa2
 随着社会的不断发展和进步，emmmmm，express团队从一开始陆续搞出了express、koa1和koa2，为毛他们闲着没事干，搞这么多起相同功能的轮子呢？不知道老子学不动了吗?（开玩笑<br>
 
