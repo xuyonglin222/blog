@@ -5,8 +5,6 @@ tags: Javascript
 categories: 学习
 ---
 
-![](http://p27xmpvkg.bkt.clouddn.com/dog2.jpg)
-
 >javascript数组和Function一样，继承自Object，是引用类型，<em>不是</em>javascript基本类型。关于数组有很多要注意的地方。
 
 <!--more-->
@@ -158,8 +156,8 @@ var n=m.map(function(e){
 
 ```
 <em>ps:关于数组遍历函数的比较有张图描述的特别好<em>
-
-![](http://p27xmpvkg.bkt.clouddn.com/array.png)
+	
+![](http://pkkch1tf7.bkt.clouddn.com/array.png)
 
 #### sort
 该方法会对数组进行排序，要注意的是，它并不是按大小从大往小排序的，<font color='blue'>而是按首字符（多为数字按第一位）<font>。代码如下：
@@ -196,8 +194,17 @@ var newElements = [4,5,6];
 nums.splice(3,0,newElements);//也可以nums.splice(3,0,4,5,6)
 console.log(nums); // 1,2,3,4,5,6,7,8,9
 ```
-
-
+#### find
+该方法返回通过函数内判断的数组的第一个元素的值。
+```bash
+var ages = [3, 10, 18, 20];
+function checkAdult(age) {
+    return age >= 18;
+}
+function myFunction() {
+    document.getElementById("demo").innerHTML = ages.find(checkAdult);
+}
+```
 ### 类数组
 除了数组以外，我们还会经常碰到一些类数组(array-like),比如arguments,通过document.getElementsBy...方法得到的HTMLCollection以及通过querySelector方法得到的NodeList，包括jquery对象，其实都是类数组。<br>
 类数组不是数组，最明显的区别就是，不能使用pop，push等方法，nodelist能使用forEach是因为nodelist的原型上有这个方法，但是HTMLCollection没有。

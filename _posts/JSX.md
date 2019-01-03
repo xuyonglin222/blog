@@ -5,7 +5,6 @@ tags: React
 categories: 学习
 ---
 
-![](http://p27xmpvkg.bkt.clouddn.com/cat3.jpg)
 >学了React有差不多俩星期了，做个总结。
 
 ### 什么是JSX
@@ -28,7 +27,7 @@ JSX可以理解为在JS中编写与XML语言类似的语言，他并不能被浏
 console.log(<App/>)
 ```
 如图所示：
-![](http://p27xmpvkg.bkt.clouddn.com/cosole.log%28APP%29.png)
+![](http://pkkch1tf7.bkt.clouddn.com/cosole.log%28APP%29.png)
 
 as  we  can see，组件并不是我们之前传统开发模式下的可复用的HTML+CSS，而是单纯的js对象，或者说虚拟DOM。
 接下来
@@ -37,7 +36,7 @@ console.log(<ToDoList name={'todo'} onClick={()=>{console.log('ss')}}/>)<br>
 ```
 
 在组件里添加属性和方法，(ToDoList是之前写的一个小组件)，在控制台上可以看到。
-![](http://p27xmpvkg.bkt.clouddn.com/JSX.png);
+![](http://pkkch1tf7.bkt.clouddn.com/JSX.png);
 可以看到props里多了name和事件onClick，这也就是React声明组件属性和方法的方式，从这一点来看Vue还要去props里注册要省事一点。
 可以看到组件对象里还有一些其他的属性，这些是用来干嘛的呢？O98k，打开[在线Babel编译器](https://babeljs.io/repl)，输入
 ```bash
@@ -45,12 +44,12 @@ function hello(){
   return (<div>hello</div>)
 }
 ```
-可以看到![](http://p27xmpvkg.bkt.clouddn.com/babelHello.png)
+可以看到![](http://pkkch1tf7.bkt.clouddn.com/babelHello.png)
 babel调用了React的createElement方法，这也就是为什么，我们在webpack环境下，声明一个组件，明明没有用到React，也要去引入的原因。
 那么这个函数是干嘛使得呢？o98k，接下来好好看看。
 
 ### createElemnt
-首先把React源码的地址贴上，[REACT源码](http://p27xmpvkg.bkt.clouddn.com/react.development.js)，有兴趣的小伙伴可以复制下来看看。
+首先把React源码的地址贴上，[REACT源码](http://pkkch1tf7.bkt.clouddn.com/react.development.js)，有兴趣的小伙伴可以复制下来看看。
 在React0.15版本中用到的是createClass方法，但是这个方法貌似已经过时了，16版本用的就是createElement。
 
 在源码的481行，可以找到这个函数，他有三个参数：
@@ -294,4 +293,4 @@ Component.prototype.forceUpdate = function (callback) {
 };
 ```
 贴张图
-![](http://p27xmpvkg.bkt.clouddn.com/ReactComponent.png)
+![](http://pkkch1tf7.bkt.clouddn.com/ReactComponent.png)

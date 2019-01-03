@@ -5,7 +5,6 @@ tags: javascript
 categories: 学习
 ---
 
-![](http://p27xmpvkg.bkt.clouddn.com/cat3.jpg)
 >原型和原型链一直是JavaScript的重中之重，一直学的很模糊，今天做一下总结。
 > 就当是重新学一遍。
 
@@ -63,7 +62,7 @@ let b = new B();
 原型分两种，隐式原型(\_\_proto\_\_)和显式原型(prototype)。所有的对像都会有隐式原型，但是只有构造函数才会有显式原型。
 <br>当然二者存在一定的关系，一个对象的隐式原型是该对象的的构造函数的显式原型，如果该对象本身是一个构造函数，那么它的隐式原型就是Function.prototype,因为构造函数 的构造函数就是Function，另外 Function和Object的构造函数也是Function。
 咳咳，这个时候，就要放出珍藏已久的图喽。
-![](http://p27xmpvkg.bkt.clouddn.com/prototype.jpg)
+![](http://pkkch1tf7.bkt.clouddn.com/prototype.jpg)
 来两到测试题
 ```bash
 # 测试题1

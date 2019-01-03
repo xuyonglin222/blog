@@ -7,4 +7,7 @@ tags: About
 <br><br>
 ### 关于指弹
 
-吉他啊，是我从高中的时候才喜欢上的，但是那个时候，住宿，根本没啥时间学这个，到了大学，跟父母要了人生的第一把吉他，100多的烧火棍，现在在阳台上代我经历风吹雨打。第二把是一把一千多的斗牛士，我跟爸妈借的钱（已还），第三把，也就是现在这把，takewood 没错，是takewood，不是lakewood，买不起23500lakewood，买把5000多的takewood还是可以的.
+吉他啊，是我从高中的时候才喜欢上的，但是那个时候，住宿，根本没啥时间学这个，到了大学，跟父母要了人生的第一把吉他，100多的烧火棍，现在在阳台上代我经历风吹雨打。第二把是一把一千多的斗牛士，我跟爸妈借的钱（已还），第三把，也就是现在这把，takewood 没错，是takewood，不是lakewood，买不起23500的lakewood，买把5000多的takewood还是可以的。
+<img style="width:300px;" src="http://pkkch1tf7.bkt.clouddn.com/guitar1.jpeg" />
+
+<img  style="width:300px;"  src="http://pkkch1tf7.bkt.clouddn.com/guitar2.jpeg"/>

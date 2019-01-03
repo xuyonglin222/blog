@@ -333,5 +333,5 @@ function compose (middleware) {
 }
 ```
 compose中主要是dispatch，递归调用了这个函数，其实就是在第一个函数里执行第二个函数，在第二个函数里执行第三个。。。。。 就像一个洋葱。
-<img src="http://p27xmpvkg.bkt.clouddn.com/onion.png" />
+<img src="http://pkkch1tf7.bkt.clouddn.com/onion.png" />
 其实就是一个调用栈，然后包装成了promise，当next()时，generator函数，对应的就yield，就跳到了下一个中间件函数。

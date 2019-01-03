@@ -5,8 +5,6 @@ tags: javascript
 categories: 学习
 ---
 
-
-![](http://p27xmpvkg.bkt.clouddn.com/g2.jpg)
 > 这几天在用Vue写销售系统，想着后台用node写几个接口，给前端用，之前登陆信息，暂时存在localStorage里，真是脸红。
 
 <!--more-->
@@ -16,7 +14,7 @@ categories: 学习
 说实话，我觉得我后台很渣，但是也没想到这么渣，之前用原生js去封装ajax，啥事没有。<br>
 
 今天用axios，各种Content-type不适配，好不容易好不容易传过来，打印出来是这样的
-![](http://p27xmpvkg.bkt.clouddn.com/axioshhh.png)
+![](http://pkkch1tf7.bkt.clouddn.com/axioshhh.png)
 exm????为啥传来的值在key上，
 是我的body-parser用的不对吗？之前也是这么用的啊
 ```bash
@@ -67,7 +65,7 @@ axios.get('/user', {
     console.log(error);
   });
 
-  ```
+```
 
 
 POST请求
@@ -83,7 +81,7 @@ POST请求
     console.log(error);
   });
 
-  ```
+```
 同时执行多个
 ```bash
 function getUserAccount() {
@@ -99,7 +97,7 @@ axios.all([getUserAccount(), getUserPermissions()])
     // Both requests are now complete
   }));
 
-  ```
+```
 
 可以直接通过config来完成请求
 axios(config)

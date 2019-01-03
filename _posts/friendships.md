@@ -11,7 +11,7 @@ categories: 指弹
 <!--more-->
 <div style="width:100%;">
 <div style="transform: rotate(-90deg);margin-left: 28%; width: 50%;margin-top: -125px;">
-{% dplayer "url=http://p27xmpvkg.bkt.clouddn.com/friendships.mp4"   "loop=yes" "theme=#FADFA3"  "token=tokendemo" %}
+{% dplayer "url=http://pkkch1tf7.bkt.clouddn.com/friendships.mp4"   "loop=yes" "theme=#FADFA3"  "token=tokendemo" %}
 
 </div>
 </div>

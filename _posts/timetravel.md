@@ -12,4 +12,4 @@ categories: 指弹
 喜欢岸部真明就是从这首曲子开始的，大学时光匆匆流逝，虽然有点吵，确实记录了大学一角，我的室友，我的吉他，我的音响，还有那些遗憾和憧憬。
 (录得效果不好)
 
-{% dplayer "url=http://p27xmpvkg.bkt.clouddn.com/VID20180416232819.mp4"  "pic=http://p27xmpvkg.bkt.clouddn.com/u=2875524332,436336741&fm=27&gp=0.jpg" "loop=yes" "theme=#FADFA3"  "token=tokendemo" %}
+{% dplayer "url=http://pkkch1tf7.bkt.clouddn.com/VID20180416232819.mp4"  "pic=http://pkkch1tf7.bkt.clouddn.com/u=2875524332,436336741&fm=27&gp=0.jpg" "loop=yes" "theme=#FADFA3"  "token=tokendemo" %}

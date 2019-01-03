@@ -15,15 +15,15 @@ categories: 学习
 <br>
 注册界面
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/register.png)
+![](http://pkkch1tf7.bkt.clouddn.com/register.png)
 <br>
 登录界面
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/login.png)
+![](http://pkkch1tf7.bkt.clouddn.com/login.png)
 <br>
 首页
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/home.png)
+![](http://pkkch1tf7.bkt.clouddn.com/home.png)
 
 顺手把页面逻辑跳转写了
 

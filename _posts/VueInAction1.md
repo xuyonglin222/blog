@@ -5,13 +5,13 @@ tags: Vue
 categories: 学习
 ---
 
-![](http://p27xmpvkg.bkt.clouddn.com/dog3.jpg)
+
 
 >之前在慕课网上学过Vue，花了100多买了实站视频，照着敲了一遍，后来又学习node就把Vue
 >搁置了一段时间，后来静下心来决定平平稳稳地学，就买了本Vue.js实战，决定照着书把代码
 >再敲一遍，特此记录。
 
-  <strong>本文借鉴了梁灏先生的《Vue.js实战》的内容，特此声明，表示尊重。</strong><br>
+  <strong>本文借鉴了梁灏先生的《Vue.js实战》的内容，特此声名。</strong><br>
 
 <!--more-->
 
@@ -103,8 +103,8 @@ Vue的生命周期钩子与jQuery的ready()方法类似，比较常用的有:
 点击切换按钮，虽然DOM元素改变了，但是之前在输入
 框输入的内容没变，只是替换了placeholder的内容，说明input被复用了。如图所示：
 
-![](http://p27xmpvkg.bkt.clouddn.com/VueInAcion1.png)
-![](http://p27xmpvkg.bkt.clouddn.com/VueInAction2.png)
+![](http://pkkch1tf7.bkt.clouddn.com/VueInAcion1.png)
+![](http://pkkch1tf7.bkt.clouddn.com/VueInAction2.png)
 
 如果不希望如此  可以给不想被复用的元素，加个key，key的值必须是惟一的。代码用法如下：
 

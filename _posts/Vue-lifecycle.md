@@ -11,7 +11,7 @@ categories: 学习
 <!--more-->
 
 话不多说，先来张图。
-![](http://p27xmpvkg.bkt.clouddn.com/lifecycle.png)
+![](http://pkkch1tf7.bkt.clouddn.com/lifecycle.png)
 熟悉吧！ 没错，这张图来自官网。我记得一开始学习Vue的时候，看到这张图，就晕，啥意思啊，不懂。
 知道最近，再看Vue的源码的时候（看了有一段时间了，分模块进行的），产生了强烈的共鸣。
 
@@ -42,7 +42,7 @@ categories: 学习
 然后结合书籍，或者直接看源码（头晕），可以借助Webstorm编辑器的ctrl+鼠标左键，进行函数跳转，一定要先把某些函数缩进起来，便于阅读，个人认为，可以先适当了解它的私有函数，比如pushStack，makeArray，merage等方法，因为jquery暴露出的api，其实用到了很多这样的方法。
 
 而Vue和react这类框架，建议去阅读它的真正源码而不是压缩后的，可以再node_modules里找到，Vue的结构是这样的。
-![](http://p27xmpvkg.bkt.clouddn.com/VueYM.png)
+![](http://pkkch1tf7.bkt.clouddn.com/VueYM.png)
 而入口文件是 core/index.js
 
 ### 正文开始

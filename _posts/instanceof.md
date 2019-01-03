@@ -5,8 +5,6 @@ tags: Javascript
 categories: 学习
 ---
 
-![](http://p27xmpvkg.bkt.clouddn.com/cat1.jpg)
-
 >instanceof 运算符与 typeof 运算符相似，用于识别正在处理的对象的类型。与 typeof 方法不同的是，instanceof 方法要求开发者明确地确认对象为某特定类型。尽管它的用法不如typeof灵活，但是当typeof返回值是Object时，instanceof还是挺有用的，常用来判断继承关系。
 
 
@@ -120,7 +118,7 @@ console.log(Foo instanceof Foo);//false
    joined to each other (section 13.1.2), return true.
  8. Go to step 5.
 
-```
+ ```
 上面的规范定义很晦涩，而且看起来比较复杂，涉及到很多概念，但把这段规范翻译成 JavaScript 代码却很简单，如下：
 ```bash
 
@@ -137,4 +135,4 @@ function instance_of(L, R) {//L 表示左表达式，R 表示右表达式
 }
 ```
 当当当当，BB一大片，这才是精华。其实判断继承关系，搞懂下面这张图就ok。
-![](http://p27xmpvkg.bkt.clouddn.com/prototype.jpg)
+![](http://pkkch1tf7.bkt.clouddn.com/prototype.jpg)

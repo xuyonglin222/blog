@@ -10,24 +10,24 @@ categories: 学习
 <br>
 商品详情界面
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/good.png)
+![](http://pkkch1tf7.bkt.clouddn.com/good.png)
 <br>
 购物车
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/cart.png)
+![](http://pkkch1tf7.bkt.clouddn.com/cart.png)
 <br>
 收藏
 <br>
 
-![](http://p27xmpvkg.bkt.clouddn.com/like.png)
+![](http://pkkch1tf7.bkt.clouddn.com/like.png)
 <br>
 个人详情界面
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/mine.png)
+![](http://pkkch1tf7.bkt.clouddn.com/mine.png)
 <br>
 订单界面
 <br>
-![](http://p27xmpvkg.bkt.clouddn.com/order.png)
+![](http://pkkch1tf7.bkt.clouddn.com/order.png)
 
 期间完善了一下首页轮播图以及tab组件图片偶尔不能显示的问题，查了一下资料，原来
 react-native-swiper还有react-native-scrollable-tab-view，这两个东西需要手动重新渲染界面,
