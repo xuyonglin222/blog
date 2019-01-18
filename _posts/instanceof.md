@@ -1,7 +1,7 @@
 ---
 title: instanceof
 date: 2018-01-16 11:35:29
-tags: Javascript
+tags: javascript
 categories: 学习
 ---
 

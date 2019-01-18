@@ -1,7 +1,7 @@
 ---
 title: VueComponent（一）
 date: 2018-01-12 10:50:15
-tags: Vue
+tags: vue
 categories: 学习
 ---
 

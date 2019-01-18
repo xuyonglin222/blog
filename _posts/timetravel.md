@@ -1,7 +1,7 @@
 ---
 title: time travel
 date: 2018-04-29 20:50:28
-tags: 生活
+tags: 指弹
 categories: 指弹
 ---
 

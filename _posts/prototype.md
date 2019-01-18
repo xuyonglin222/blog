@@ -31,7 +31,7 @@ var person = new Person('xyl', 18, '男');
 ```
 然后将这两行代码复制到浏览器的console环境下，输入person按回车可以看到下面的情况
 
-![](<img src="/images/prototype1.png" width="800">)
+<img src="http://pkkch1tf7.bkt.clouddn.com/prototype1.png" width="800">
 这张图片里name，age，gender是定义在构造器Person里的，但是isPrototypeOf等方法，确是在\_\_proto\_\_里，我们依然可以调用这些方法，就是因为原型链的存在。
 举个栗子：
 当我们调用那些原型上的的方法比如valueOf()时，发生了如下过程(z这个方法会返回调用该方法的对象的本身，但不会检索原型，也没有必要)：

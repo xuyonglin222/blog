@@ -1,7 +1,7 @@
 ---
 title: Vue学习笔记之v-model指令
 date: 2018-01-08 12:05:36
-tags: Vue
+tags: vue
 categories: 学习
 ---
 

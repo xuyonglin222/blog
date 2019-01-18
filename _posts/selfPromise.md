@@ -60,6 +60,7 @@ function myPromise(fn) {
         }
     }
 
+	//onFulfilled, onRejected是可选参数，如果不是函数可以忽略
     this.then = function (onFulfilled, onRejected) {
         return new myPromise(function (resolve, reject) {
             handle({
@@ -97,5 +98,5 @@ new myPromise(function(resolve){
 
 为了链式调用，then函数的返回值一定是个promise，但是在第二个then里回调函数接受的数据data应该依赖于toChainPoromise，而不是then函数本身返回的promise，所以then函数既要把toChainPoromise和后面的then衔接起来。
 
-###  如何衔接起来呢
+
 

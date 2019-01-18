@@ -1,7 +1,7 @@
 ---
 title: Array
 date: 2018-01-13 14:30:15
-tags: Javascript
+tags: javascript
 categories: 学习
 ---
 
@@ -156,7 +156,7 @@ var n=m.map(function(e){
 
 ```
 <em>ps:关于数组遍历函数的比较有张图描述的特别好<em>
-	
+​	
 ![](http://pkkch1tf7.bkt.clouddn.com/array.png)
 
 #### sort

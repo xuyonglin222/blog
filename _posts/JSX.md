@@ -1,7 +1,7 @@
 ---
 title: JSX
 date: 2018-04-05 12:25:14
-tags: React
+tags: react
 categories: 学习
 ---
 

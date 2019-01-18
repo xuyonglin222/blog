@@ -1,7 +1,7 @@
 ---
 title: Vue学习笔记之啦啦啦
 date: 2018-01-05 23:54:06
-tags: Vue
+tags: vue
 categories: 学习
 ---
 
