@@ -4,13 +4,14 @@ date: 2019-01-17 17:41:09
 tags: vue
 ---
 
-> 昨天部门做了分享，主题是react，不知道为毛扯到了vue的diff的，之前有看过diff文章和部分源码，时间太久，发现也忘记了，于是重新去瞅了一下源码，做个总结，举了3个🌰，画了12张图。子曰：温故而知新，古人诚不我欺。
+> 昨天部门做了分享，主题是react，不知道为毛扯到了vue的diff的，之前有看过diff文章和部分源码，时间太久，发现也忘记了，于是重新去瞅了一下源码，做个总结，举了3个🌰，画了12张图，所以本文更侧重于图文，而不是源码子曰：温故而知新，古人诚不我欺。
 
+<!-- more -->
 ## 关键源码
 
 ### updateChildren
 
-vue关于diff的地址：https://github.com/vuejs/vue/blob/2.6/src/core/vdom/patch.js
+vue关于diff模块源码地址：https://github.com/vuejs/vue/blob/2.6/src/core/vdom/patch.js
 
 其中最关键的就是在404行的updateChildren的函数里，顺便加点注释，PS：最好以后面的图文为主。
 
@@ -22,7 +23,7 @@ vue关于diff的地址：https://github.com/vuejs/vue/blob/2.6/src/core/vdom/pat
 +  oldStart和newEnd判断是否值得比较，若true就patch，接着将oldStart所指向的真实节点移动到的oldEnd所指向的真实节点的下一个节点的前面（就是移动到oldENd的位置），然后newEnd--，oldStart++，否则进入下一步。
 +  oldEnd和newStart判断是否值得比较，若true就patch，接着将oldEnd所指向的真实节点移动到oldStart的前面,然后oldEnd--，newStart++，否则进入下一步。
 
-+ 如果两组指针都不能判断一个newVdom是增加的还是删除，就会创建一个map
++ 如果两组指针都不能判断一个newVdom是增加的还是删除，就会创建一个map，存储oldVnode的映射。
 
 ```bash
 function updateChildren (parentElm, oldCh, newCh, insertedVnodeQueue, removeOnly) {
@@ -272,5 +273,5 @@ ok，接下来就是下一次循环，还是进入oldStart与newEnd的比较，�
 ![](http://pkkch1tf7.bkt.clouddn.com/11.jpg)
 
 #### 第4步
-接下来的情况就好说了，dom和期望的顺序已经是一直的了，接下来就是运用diff的start之间的比较更新下差异就行了。
+接下来的情况就好说了，dom和期望的顺序已经是一致的了，接下来就是运用diff的start之间的比较更新下差异就行了。
 
