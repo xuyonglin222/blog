@@ -1,7 +1,7 @@
 ---
 title: friendships
 date: 2018-05-23 12:03:10
-tags: 生活
+tags: 指弹
 categories: 指弹
 ---
 

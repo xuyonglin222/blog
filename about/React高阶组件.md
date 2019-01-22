@@ -10,4 +10,4 @@ tags: react
 
 高阶组件其实就是一个函数，这个函数将一个组件作为输入，然后输出一个组件，这样我们就可以在函数内部做一些公共的逻辑封装，稍微复杂一点的一般会写成二阶函数的形式，形如react-redux的connect函数，ant design的getFieldDecorator（后面稍微讲一下）。
 ----
-
+loading
